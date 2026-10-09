@@ -120,26 +120,24 @@
                                     placeholder="Ex.: 123" inputmode="numeric" autocomplete="address-line2" required>
                             </div>
                             <div class="col-md-4 col-lg-2">
-                                <label for="complemento" class="form-label required">Complemento</label>
+                                <label for="complemento" class="form-label">Complemento</label>
                                 <input type="text" class="form-control" id="complemento" name="complemento"
-                                    placeholder="Ex.: Nº do AP" required>
+                                    placeholder="Ex.: Nº do AP">
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <label for="estado" class="form-label required">Estado</label>
+                                <select class="form-select" name="estado" id="estado" autocomplete="address-level1" required><option value="">Selecione o estado</option></select>
+                                
+                            </div>
+                            <div class="col-md-6 col-lg-5">
+                                <label for="cidade" class="form-label required">Cidade</label>
+                                <select class="form-control" name="cidade" id="cidade" autocomplete="address-level2" required><option value="">Selecione a cidade</option></select>
                             </div>
                             <div class="col-md-6 col-lg-4">
                                 <label for="bairro" class="form-label required">Bairro</label>
                                 <input type="text" class="form-control" id="bairro" name="bairro"
                                     placeholder="Digite o bairro" required>
                             </div>
-                            <div class="col-md-6 col-lg-3">
-                                <label for="estado" class="form-label required">Estado</label>
-                                <input type="text" class="form-control" id="estado" name="estado"
-                                    placeholder="Digite o estado" autocomplete="address-level1" required>
-                            </div>
-                            <div class="col-md-6 col-lg-5">
-                                <label for="cidade" class="form-label required">Cidade</label>
-                                <input type="text" class="form-control" id="cidade" name="cidade"
-                                    placeholder="Digite a cidade" autocomplete="address-level2" required>
-                            </div>
-                        </div>
                     </section>
 
                     <div class="d-flex justify-content-end gap-2 mt-5 pt-4 border-top">
